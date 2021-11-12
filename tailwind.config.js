@@ -5,6 +5,10 @@ module.exports = {
     extend: {
       backgroundImage: {
         'lines-texture': "url('/css/img/pattern.png')"
+      },
+      colors: {
+        'azul-claro': "#37bcf9",
+        'azul-oscuro': "#0370b9"
       }
     },
   },

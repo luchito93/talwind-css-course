@@ -46,3 +46,9 @@
         font-family: "TrebuchetMS";
     }
 }
+
+@layer components {
+    .menu-item-a {
+        @apply block transition duration-200 transform hover:text-azul-claro hover:scale-125;
+    }
+}
