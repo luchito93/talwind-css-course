@@ -10,14 +10,16 @@
 <body class="bg-lines-texture bg-scroll">
     <!--CABEZERA-->
     <header id="header" class="
-        h-20
+        min-h-full
+        py-2
+        sm:h-20
         bg-black
         text-white
         bebas
         flex
         items-center
     ">
-        <div class="container mx-auto flex justify-between items-center px-2 sm:px-0">
+        <div class="container mx-auto flex flex-col justify-center items-start px-2 flex-wrap xsm:flex-row sm:items-center sm:justify-between sm:px-0">
             <div id="logo" class="flex gap-3 bg-azul-claro h-16 justify-center items-center px-4 cursor-pointer
             hover:text-black hover:bg-gray-200 transition-all duration-300 text-3xl
             group overflow-hidden">
@@ -26,9 +28,9 @@
                 </span>
                 <h3 class="tracking-wider pt-1.5 group-hover:animate-from-right">TAILWIND</h3>
             </div>
-            <!-- https://www.udemy.com/course/curso-de-tailwind-css-desde-cero-hasta-profesional/learn/lecture/25293970#overview min 7:13-->
+            <!-- https://www.udemy.com/course/curso-de-tailwind-css-desde-cero-hasta-profesional/learn/lecture/25497704#questions/14454298 min 1:26-->
             <nav>
-                <ul class="flex gap-6 text-2xl tracking-wider">
+                <ul class="flex gap-6 text-2xl pl-5 tracking-wider flex-wrap justify-center mt-2 flex-col xsm:pl-0 xsm:flex-row sm:mt-auto">
                     <li>
                         <a href="#" class="menu-item-a">INICIO</a>
                     </li>

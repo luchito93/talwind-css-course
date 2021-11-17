@@ -3,6 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      screens: {
+        'xsm': '370px'
+      },
       backgroundImage: {
         'lines-texture': "url('/css/img/pattern.png')"
       },
