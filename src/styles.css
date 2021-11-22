@@ -51,4 +51,9 @@
     .menu-item-a {
         @apply block transition duration-200 transform hover:text-azul-claro hover:scale-125;
     }
+
+    .text-banner {
+        font-family: "BebasNeue";
+        text-shadow: 2px 2px 1px black;
+    }
 }
