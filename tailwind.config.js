@@ -3,6 +3,13 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      fontFamily: {
+        'symbol': ['WebSymbolsRegular'],
+        'trebuchet': ['TrebuchetMS']
+      },
+      boxShadow: {
+        'card': '1px 1px 2px #ddd'
+      },
       screens: {
         'xsm': '370px'
       },
@@ -15,7 +22,8 @@ module.exports = {
       },
       colors: {
         'azul-claro': "#37bcf9",
-        'azul-oscuro': "#0370b9"
+        'azul-oscuro': "#0370b9",
+        'azu-card-title': "#00538c"
       },
       animation: {
         'spin-slow': 'spin 2s linear infinite',

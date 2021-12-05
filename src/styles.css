@@ -56,4 +56,21 @@
         font-family: "BebasNeue";
         text-shadow: 2px 2px 1px black;
     }
+
+    .card {
+        @apply border border-gray-200 shadow-card overflow-hidden
+        flex flex-col items-center p-5;
+    }
+
+    .card-icon {
+        @apply font-symbol text-5xl pb-5;
+    }
+
+    .card-category {
+        @apply font-trebuchet text-xl text-azu-card-title pb-5;
+    }
+
+    .card-description {
+        @apply font-trebuchet text-sm text-azul-oscuro;
+    }
 }
