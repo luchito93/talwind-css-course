@@ -59,18 +59,26 @@
 
     .card {
         @apply border border-gray-200 shadow-card overflow-hidden
-        flex flex-col items-center p-5;
+        flex flex-col items-center p-5
+        duration-300
+        cursor-pointer
+        flex-1
+        hover:bg-black
+        group;
     }
 
     .card-icon {
-        @apply font-symbol text-5xl pb-5;
+        @apply font-symbol text-5xl pb-5 group-hover:text-azul-claro
+        transform scale-150;
     }
 
     .card-category {
-        @apply font-trebuchet text-xl text-azu-card-title pb-5;
+        @apply font-trebuchet text-xl text-azu-card-title pb-5
+        group-hover:text-white;
     }
 
     .card-description {
-        @apply font-trebuchet text-sm text-azul-oscuro;
+        @apply font-trebuchet text-sm text-azul-oscuro
+        group-hover:text-white;
     }
 }
