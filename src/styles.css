@@ -59,26 +59,35 @@
 
     .card {
         @apply border border-gray-200 shadow-card overflow-hidden
-        flex flex-col items-center p-5
+        flex flex-col items-center p-5 pt-7
         duration-300
         cursor-pointer
-        flex-1
         hover:bg-black
+        w-40
+        sm:flex-1
+        sm:w-full
         group;
     }
 
     .card-icon {
-        @apply font-symbol text-5xl pb-5 group-hover:text-azul-claro
-        transform scale-150;
+        @apply font-symbol text-5xl pb-5
+        group-hover:text-azul-claro
+        duration-200
+        group-hover:transform
+        group-hover:scale-150
+        group-hover:animate-card-icon
+        ;
     }
 
     .card-category {
         @apply font-trebuchet text-xl text-azu-card-title pb-5
-        group-hover:text-white;
+        group-hover:text-white group-hover:animate-card-category;
     }
 
     .card-description {
         @apply font-trebuchet text-sm text-azul-oscuro
-        group-hover:text-white;
+        hidden
+        group-hover:text-white group-hover:animate-card-description
+        sm:block;
     }
 }
