@@ -5,10 +5,12 @@ module.exports = {
     extend: {
       fontFamily: {
         'symbol': ['WebSymbolsRegular'],
-        'trebuchet': ['TrebuchetMS']
+        'trebuchet': ['TrebuchetMS'],
+        'bebas': ['BebasNeue']
       },
       boxShadow: {
-        'card': '1px 1px 2px #ddd'
+        'card': '1px 1px 2px #ddd',
+        'section-title': '0px 1px 0px #393d3f, 1px 2px 0px #393d3f, 2px 3px 0px #393d3f, 3px 4px 0px #393d3f'
       },
       screens: {
         'xsm': '370px'
@@ -18,7 +20,8 @@ module.exports = {
       },
       backgroundImage: {
         'lines-texture': "url('/css/img/pattern.png')",
-        'banner': "url('/css/img/bakbaner.png')"
+        'banner': "url('/css/img/bakbaner.png')",
+        'titles-texture': "url('/css/img/pxgray.png')"
       },
       colors: {
         'azul-claro': "#37bcf9",

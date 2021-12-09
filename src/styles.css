@@ -60,6 +60,7 @@
     .card {
         @apply border border-gray-200 shadow-card overflow-hidden
         flex flex-col items-center p-5 pt-7
+        bg-white
         duration-300
         cursor-pointer
         hover:bg-black
@@ -89,5 +90,10 @@
         hidden
         group-hover:text-white group-hover:animate-card-description
         sm:block;
+    }
+
+    .section-title-3d {
+        @apply bg-titles-texture bg-white font-bebas shadow-section-title flex items-center justify-start
+        tracking-widest pl-4;
     }
 }
