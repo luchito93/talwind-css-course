@@ -26,7 +26,8 @@ module.exports = {
       colors: {
         'azul-claro': "#37bcf9",
         'azul-oscuro': "#0370b9",
-        'azu-card-title': "#00538c"
+        'azu-card-title': "#00538c",
+        'gray-cat-article': "#393d3f"
       },
       animation: {
         'spin-slow': 'spin 2s linear infinite',

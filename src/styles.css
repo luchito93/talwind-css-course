@@ -96,4 +96,29 @@
         @apply bg-titles-texture bg-white font-bebas shadow-section-title flex items-center justify-start
         tracking-widest pl-4;
     }
+
+    .article-cmp {
+        @apply border border-solid border-gray-300 shadow-card
+        mt-10;
+    }
+
+    .article-header {
+        @apply flex justify-between flex-col-reverse mb-3 gap-y-3
+        md:flex-row md:items-end;
+    }
+
+    .article-title {
+        @apply text-azu-card-title no-underline text-2xl font-trebuchet font-bold
+        pl-3;
+    }
+
+    .article-time-cat {
+        @apply bg-gray-cat-article text-white text-sm h-10 flex items-center
+        px-2 gap-x-5 font-trebuchet
+        md:rounded-bl-md;
+    }
+
+    .article-text {
+        @apply pl-3 pr-3 pb-3 font-trebuchet text-sm;
+    }
 }
