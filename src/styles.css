@@ -66,8 +66,7 @@
         hover:bg-black
         w-40
         sm:flex-1
-        sm:w-full
-        group;
+        sm:w-full;
     }
 
     .card-icon {

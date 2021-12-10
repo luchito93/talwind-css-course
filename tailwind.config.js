@@ -1,6 +1,5 @@
 module.exports = {
-  purge: [],
-  darkMode: false, // or 'media' or 'class'
+  content: ["./index.html"],
   theme: {
     extend: {
       fontFamily: {
@@ -10,7 +9,8 @@ module.exports = {
       },
       boxShadow: {
         'card': '1px 1px 2px #ddd',
-        'section-title': '0px 1px 0px #393d3f, 1px 2px 0px #393d3f, 2px 3px 0px #393d3f, 3px 4px 0px #393d3f'
+        'section-title': '0px 1px 0px #393d3f, 1px 2px 0px #393d3f, 2px 3px 0px #393d3f, 3px 4px 0px #393d3f',
+        'input': 'rgb(0 0 0 / 10%) 3px 3px 6px 0px inset, rgb(255 255 255 / 50%) -3px -3px 6px 1px inset'
       },
       screens: {
         'xsm': '370px'
@@ -72,13 +72,6 @@ module.exports = {
           'to': { transform: 'translateX(0%)' }
         }
       }
-    },
-  },
-  variants: {
-    extend: {
-      animation: ['group-hover', 'hover'],
-      transform : ['group-hover', 'hover'],
-      scale: ['group-hover', 'hover']
     },
   },
   plugins: [],
