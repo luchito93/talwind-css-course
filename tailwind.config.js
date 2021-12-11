@@ -10,7 +10,8 @@ module.exports = {
       boxShadow: {
         'card': '1px 1px 2px #ddd',
         'section-title': '0px 1px 0px #393d3f, 1px 2px 0px #393d3f, 2px 3px 0px #393d3f, 3px 4px 0px #393d3f',
-        'input': 'rgb(0 0 0 / 10%) 3px 3px 6px 0px inset, rgb(255 255 255 / 50%) -3px -3px 6px 1px inset'
+        'input': 'rgb(0 0 0 / 10%) 3px 3px 6px 0px inset, rgb(255 255 255 / 50%) -3px -3px 6px 1px inset',
+        'card-loguin': '0px 0px 1px rgb(0 0 0 / 30%), 0px 3px 7px rgb(0 0 0 / 30%), 0px 1px white inset, 0px -3px 2px rgb(0 0 0 / 30%) inset'
       },
       screens: {
         'xsm': '370px'
@@ -21,7 +22,8 @@ module.exports = {
       backgroundImage: {
         'lines-texture': "url('/css/img/pattern.png')",
         'banner': "url('/css/img/bakbaner.png')",
-        'titles-texture': "url('/css/img/pxgray.png')"
+        'titles-texture': "url('/css/img/pxgray.png')",
+        'btn-login': 'linear-gradient(to bottom, #3eb8e5 0%, #2ca0ca 100%)'
       },
       colors: {
         'azul-claro': "#37bcf9",

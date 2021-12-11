@@ -120,4 +120,26 @@
     .article-text {
         @apply pl-3 pr-3 pb-3 font-trebuchet text-sm;
     }
+
+    .basic-input {
+        @apply border
+                w-full
+                border-gray-400
+                rounded-l-md
+                shadow-input
+                text-gray-600
+                focus:outline-azu-card-title;
+    }
+
+    .bnt-loguin {
+        @apply font-trebuchet text-sm font-light cursor-pointer
+        border border-azu-card-title h-9 w-24 text-white
+        flex justify-center items-center bg-btn-login
+        hover:bg-gradient-to-r from-cyan-500 to-blue-500;
+    }
+
+    .hyperlinks-form {
+        @apply font-trebuchet text-sm text-gray-600 no-underline block
+        hover:underline hover:text-blue-600;
+    }
 }
